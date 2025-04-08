@@ -4,7 +4,7 @@ function onYouTubeIframeAPIReady() {
 	player = new YT.Player('video-placeholder', {
 		width: 600,
 		height: 400,
-		videoId: 'vrP-_T-h9YM',
+		videoId: 'ipPC8SF6LxY?si=m99TgDxnM3qy1FRh',
 		playerVars: {
 			color: 'white',
 			//start: 
@@ -17,17 +17,17 @@ function onYouTubeIframeAPIReady() {
 	});
 }
 
-function initialize(){
+function initialize() {
 	// Update the controls on load
 	addSpans();
 }
-function addSpans(){
+function addSpans() {
 	var ps = document.querySelectorAll('#closed-captions p');
 	var i = 0;
 	var regex = /\S+/g;
-	while ( i < ps.length ) {
+	while (i < ps.length) {
 		var str = ps[i].innerText;
-		var result = str.replace(regex, function(a) {
+		var result = str.replace(regex, function (a) {
 			return "<span>" + a + "</span>";
 		});
 		ps[i].innerHTML = result;
@@ -37,59 +37,59 @@ function addSpans(){
 	updateTimerDisplay();
 }
 
-function updateTimerDisplay(){
+function updateTimerDisplay() {
 	var t = player.getCurrentTime();
-	t = Math.floor10(t,-1);
+	t = Math.floor10(t, -1);
 	// for each paragraph we want to know:
 	// (paragraph number, start time, end time, current time)
 
 	//Officer K D 6 - 3 . 7. Let’s begin. Ready?
 	var i = 0;
-	while( i < captions.length) {
-		pTimes(i,captions[i][0],captions[i][1],t);
+	while (i < captions.length) {
+		pTimes(i, captions[i][0], captions[i][1], t);
 		i++;
 	}
 	var i = 0;
-	while( i < sounds.length) {
-		sTimes(i,sounds[i],t);
+	while (i < sounds.length) {
+		sTimes(i, sounds[i], t);
 		i++;
 	}
-// Change 136.1 to the length of your own video in seconds
-	if ( t < 136.1) {
+	// Change 136.1 to the length of your own video in seconds
+	if (t < 136.1) {
 		setTimeout(() => {
 			updateTimerDisplay();
 		}, 100);
 	}
-	
+
 }
-function pTimes(num,startT,endT,curT) {
+function pTimes(num, startT, endT, curT) {
 	var curP = document.querySelector('.p' + num);
-	if(curT > endT && !curP.classList.contains('off')) {
+	if (curT > endT && !curP.classList.contains('off')) {
 		curP.classList.add('off');
 	}
-	if(curT < endT && curP.classList.contains('off')) {
+	if (curT < endT && curP.classList.contains('off')) {
 		curP.classList.remove('off');
 	}
-	if( curT > startT && !curP.classList.contains('on')) {
+	if (curT > startT && !curP.classList.contains('on')) {
 		curP.classList.add('on');
 	}
-	if( curT < startT && curP.classList.contains('on')) {
+	if (curT < startT && curP.classList.contains('on')) {
 		curP.classList.remove('on');
 	}
 }
 
-function sTimes(num,soundStarts,curT) {
+function sTimes(num, soundStarts, curT) {
 	var soundClass = 'sound' + num;
 	var b = document.querySelector('body');
-	if( curT > soundStarts && !b.classList.contains(soundClass)) {
+	if (curT > soundStarts && !b.classList.contains(soundClass)) {
 		b.classList.add(soundClass);
 	}
-	if( curT < soundStarts && b.classList.contains(soundClass)) {
+	if (curT < soundStarts && b.classList.contains(soundClass)) {
 		b.classList.remove(soundClass);
 	}
 }
 
-(function() {
+(function () {
 	/**
 	 * Decimal adjustment of a number.
 	 *
@@ -99,7 +99,7 @@ function sTimes(num,soundStarts,curT) {
 	 * @returns {Number} The adjusted value.
 	 */
 	function decimalAdjust(type, value, exp) {
-	// If the exp is undefined or zero...
+		// If the exp is undefined or zero...
 		if (typeof exp === 'undefined' || +exp === 0) {
 			return Math[type](value);
 		}
@@ -119,19 +119,19 @@ function sTimes(num,soundStarts,curT) {
 
 	// Decimal round
 	if (!Math.round10) {
-		Math.round10 = function(value, exp) {
+		Math.round10 = function (value, exp) {
 			return decimalAdjust('round', value, exp);
 		};
 	}
 	// Decimal floor
 	if (!Math.floor10) {
-		Math.floor10 = function(value, exp) {
+		Math.floor10 = function (value, exp) {
 			return decimalAdjust('floor', value, exp);
 		};
 	}
 	// Decimal ceil
 	if (!Math.ceil10) {
-		Math.ceil10 = function(value, exp) {
+		Math.ceil10 = function (value, exp) {
 			return decimalAdjust('ceil', value, exp);
 		};
 	}
