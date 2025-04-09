@@ -50,7 +50,8 @@ Darice is op latere leeftijd doof geworden. Standaard ondertiteling voldoet niet
 ### Test 2 (9 april)
 - Text in het midden plaatsen door zichtbaarheid te verhogen.
 - Maak voor de schreeuwende beesten meerdere woorden om het geluid te beschrijven.
-- 
+- sans serif voorkeur font
+- Maak gebruik van [CC] dus bijvoorbeeld [whispering]
 
 ### Test 3 (16 april)
 
