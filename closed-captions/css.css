@@ -111,9 +111,19 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-	background: hotpink;
+.sound0 {
+	.video-container {
+		border-style: inset;
+		border-color: white;
+		border-width: 10px;
+		border-radius: 10px;
+		box-shadow: 10px 10px 10px 10px white;
+		z-index: 100;
+	}
 }
+/* .sound1 {
+	background: hotpink;
+} */
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 #video-mask {
