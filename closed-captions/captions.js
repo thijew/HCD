@@ -16,6 +16,6 @@ captions[6] = ['26.4', '28.0'];
 captions[7] = ['28.5', '31.0'];
 //Sorry! move! move! excuse me!
 captions[8] = ['75.3', '78'];
-//(loud scream) AAAH! HE'S GOT A GUN!
+//(loud scream) AAAH! 
 captions[9] = ['79.0', '81.0'];
 // A GUN! HE'S GOT A GUN!

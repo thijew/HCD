@@ -1,10 +1,9 @@
 # HCD Project - Ontwerp een prototype voor Darice, een doof persoon die haar filmervaring wilt verbeteren.
 
-
-
 ---
 
 ## 📋 Opdracht
+
 Ontwerp een prototype specefiek voor Darice. Darice is  de inhoud van podcasts en films volledig kan volgen, inclusief sfeergeluiden, emoties, intonatie en andere nuances.
 Darice wil graag de inhoud van films beter kunnen volgen, inclusief alle hoorbare details zoals sfeergeluiden, geluidseffecten, en nuances zoals intonatie en andere eigenschappen van de stemmen. Is de persoon bijvoorbeeld boos? Verdrietig? Vrolijk? Ook wilt ze graag de hoorbare details zoals geluidseffecten, (spannende) muziek, etc
 Darice is op latere leeftijd doof geworden. Ze heeft een typ-tolk en een speak-easy apparaat.
@@ -12,6 +11,7 @@ Darice is op latere leeftijd doof geworden. Ze heeft een typ-tolk en een speak-e
 ---
 
 ## 🔍 Probleem
+
 Darice is op latere leeftijd doof geworden. Standaard ondertiteling voldoet niet, want:
 - Ze mist hoorbare details zoals emoties, geluidseffecten en sfeer.
 - De meeste bestaande oplossingen bieden alleen tekst.
@@ -45,13 +45,16 @@ Darice is op latere leeftijd doof geworden. Standaard ondertiteling voldoet niet
 ## 🔄 Iteraties & Tests
 
 ### Test 1 (2 april)
+
 - Moet ik nog doen
 
 ### Test 2 (9 april)
+
 - Text in het midden plaatsen door zichtbaarheid te verhogen.
 - Maak voor de schreeuwende beesten meerdere woorden om het geluid te beschrijven.
 - sans serif voorkeur font
 - Maak gebruik van [CC] dus bijvoorbeeld [whispering]
+- Laat goed zien waar het geluid vandaan komt links, rechts en waar moet het naar toe gericht is.
 
 ### Test 3 (16 april)
 
