@@ -103,11 +103,7 @@ Sounds.
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound0 {
 	#video-container {
-		border-style: inset;
-		border-color: white;
-		border-width: 10px;
-		border-radius: 10px;
-		box-shadow: 10px 10px 10px 10px white;
+		box-shadow:inset 10px 20px 30px 10px #f00;
 		z-index: 100;
 	}
 }
@@ -132,12 +128,16 @@ body {
 #video-container {
 	margin: auto;
 }
+
+/* before of after maken en over video zetten voor boxshadow */
 #video-mask {
 	aspect-ratio: 240.5/100;
 	display: grid;
 	overflow: hidden;
 	align-content: center;
 	transition: 1s;
+	box-shadow:inset 10px 20px 30px 10px #f00;
+	Z-index: 1000;
 }
 
 iframe {
