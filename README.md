@@ -1,10 +1,10 @@
-# HCD Project - Ontwerp een prototype voor Darice, een doof persoon die haar filmervaring wilt verbeteren.
+# HCD Project - Ontwerp een prototype voor Darice, een doof persoon die haar filmervaring wilt verbeteren
 
 ---
 
 ## 📋 Opdracht
 
-Ontwerp een prototype specefiek voor Darice. Darice is  de inhoud van podcasts en films volledig kan volgen, inclusief sfeergeluiden, emoties, intonatie en andere nuances.
+Ontwerp een prototype specifiek voor Darice. Darice is  de inhoud van podcasts en films volledig kan volgen, inclusief sfeergeluiden, emoties, intonatie en andere nuances.
 Darice wil graag de inhoud van films beter kunnen volgen, inclusief alle hoorbare details zoals sfeergeluiden, geluidseffecten, en nuances zoals intonatie en andere eigenschappen van de stemmen. Is de persoon bijvoorbeeld boos? Verdrietig? Vrolijk? Ook wilt ze graag de hoorbare details zoals geluidseffecten, (spannende) muziek, etc
 Darice is op latere leeftijd doof geworden. Ze heeft een typ-tolk en een speak-easy apparaat.
 
@@ -59,6 +59,12 @@ Darice is op latere leeftijd doof geworden. Standaard ondertiteling voldoet niet
 - Grootte van de tekst en of video aanpasbaar maken.
 
 ### Test 3 (16 april)
+
+- Zorg ervoor dat de tekst goed leesbaar is en niet te veel afleidt van de video.
+- Maak gebruik van een duidelijk contrast tussen de tekst en de achtergrond.
+- Zorg ervoor dat de tekst niet te lang is, zodat Darice het makkelijk kan volgen.
+- Gebruik emoji's of symbolen om emoties en geluidseffecten visueel weer te geven.
+- Test met verschillende kleuren en lettertypen om te zien wat het beste werkt voor Darice.
 
 ### Test 4 (23 april)
 

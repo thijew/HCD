@@ -131,7 +131,8 @@ body {
 
 /* before of after maken en over video zetten voor boxshadow */
 #video-mask {
-	aspect-ratio: 240.5/100;
+	/* Waarom aspect ratio? */
+	/* aspect-ratio: 16/9;  */
 	display: grid;
 	overflow: hidden;
 	align-content: center;
