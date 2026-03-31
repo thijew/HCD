@@ -39,7 +39,7 @@ Darice is op latere leeftijd doof geworden. Standaard ondertiteling voldoet niet
 | Study situation | Wat heb je geleerd van de observaties & tests met Darice? |
 | Ignore conventions | Wat heb je bewust anders gedaan dan normaal? |
 | Prioritise identity | Hoe zie je Darice's persoonlijkheid terug in het ontwerp? |
-| Add nonsense | Wat heb je speels, creatief of ongewoon toegevoegd? |
+| Add nonsense | Wat heb je speels, creatief of ongewoon toegevoegd? | Koppel een arduino aan de film die trilling simuleer op spannende momenten. | 
 
 ---
 
@@ -47,7 +47,19 @@ Darice is op latere leeftijd doof geworden. Standaard ondertiteling voldoet niet
 
 ### Test 1 (2 april)
 
-- Moet ik nog doen
+Vragen?
+
+- Is er een favoriet font wat u het best vindt lezen?
+- Heeft de gebruiker last van epilepsie (voor de flitsende beelden)
+- Zijn emoji's een goeie manier om emoties over te brengen?
+
+Let op de kleurencombinatie's en zorg dat het duidelijk is, de kleuren zijn erg belangrijk voor Darice.
+Bij ondertiteling de namen niet (), let op de grootte van het font.
+De toon van hoe mensen iets zeggen wanneer nodig, wanneer het niet duidelijk is voor de gebruiker verder niet nuttig om bij alles een toon aan te geven. 
+Eventueel een EQ om volume af te beelden.
+Toegankelijkheid is belangrijk maar ook de keuzes in toegankelijkheid dus geef de gebruiker keuze om opties aan en uit te zetten.
+
+
 
 ### Test 2 (9 april)
 

@@ -4,7 +4,7 @@ function onYouTubeIframeAPIReady() {
 	player = new YT.Player('video-placeholder', {
 		width: 600,
 		height: 400,
-		videoId: 'ipPC8SF6LxY?si=m99TgDxnM3qy1FRh',
+		videoId: 'ipPC8SF6LxY',
 		playerVars: {
 			color: 'white',
 			//start: 
@@ -80,14 +80,19 @@ function pTimes(num, startT, endT, curT) {
 
 function sTimes(num, soundStarts, curT) {
 	var soundClass = 'sound' + num;
+	var nextSoundStarts = sounds[num + 1] !== undefined ? sounds[num + 1] : soundStarts + 2;
 	var b = document.querySelector('body');
-	if (curT > soundStarts && !b.classList.contains(soundClass)) {
+
+	var isActive = curT >= soundStarts && curT < nextSoundStarts;
+
+	if (isActive && !b.classList.contains(soundClass)) {
 		b.classList.add(soundClass);
 	}
-	if (curT < soundStarts && b.classList.contains(soundClass)) {
+	if (!isActive && b.classList.contains(soundClass)) {
 		b.classList.remove(soundClass);
 	}
 }
+
 
 (function () {
 	/**
