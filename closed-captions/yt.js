@@ -86,7 +86,11 @@ function sTimes(num, soundStarts, curT) {
 	var isActive = curT >= soundStarts && curT < nextSoundStarts;
 
 	if (isActive && !b.classList.contains(soundClass)) {
-		b.classList.add(soundClass);
+		if (num === 9 || num === 10 || num === 11) {
+			setSound(soundClass); // flash alleen bij 9, 10, 11
+		} else {
+			b.classList.add(soundClass); // direct zetten voor de rest
+		}
 	}
 	if (!isActive && b.classList.contains(soundClass)) {
 		b.classList.remove(soundClass);
@@ -141,4 +145,21 @@ function sTimes(num, soundStarts, curT) {
 		};
 	}
 })();
+
+
+// Flash background when lights turn on
+
+function setSound(soundClass) {
+	document.body.className = document.body.className
+		.replace(/\bsound\d+\b/g, '')
+		.trim();
+
+	document.body.classList.add('flash');
+
+	setTimeout(() => {
+		document.body.classList.remove('flash');
+		document.body.classList.add(soundClass);
+	}, 80); // ← was 150ms
+}
+
 

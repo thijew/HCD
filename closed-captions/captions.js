@@ -5,6 +5,7 @@ captions[1] = ['5.5', '10'];
 // With.. old fashioned kiddie music?
 captions[2] = ['10.4', '12.5'];
 //And then I hear a big crowd!
+
 captions[3] = ['14.6', '18.0'];
 //And then theres the sound of water, uh gushing water.
 captions[4] = ['20.5', '22.0'];
@@ -13,9 +14,22 @@ captions[5] = ['22.8', '24.3'];
 // Bye, Stormy
 captions[6] = ['26.4', '28.0'];
 // ugh, excuse me! excuse me!
-captions[7] = ['28.5', '31.0'];
+captions[7] = ['28.5', '30'];
 //Sorry! move! move! excuse me!
 captions[8] = ['75.3', '78'];
 //(loud scream) AAAH! 
 captions[9] = ['79.0', '81.0'];
 // A GUN! HE'S GOT A GUN!
+captions[10] = ['12.8', '14.5'];
+// Crowd cheering
+captions[11] = ['30.2', '33'];
+// Tense music
+captions[12] = ['34', '60'];
+// beasts screeching
+captions[13] = ['68', '74'];
+// beast focus
+captions[14] = ['83', '84.8'];
+// loud growl
+captions[15] = ['85.1', '100'];
+// people screaming and panicking 
+
