@@ -45,12 +45,34 @@ Darice is op latere leeftijd doof geworden. Standaard ondertiteling voldoet niet
 
 ### Dag 1 (30 Maart)
 
-Ik had de opdracht verkeerd gelezen dus begon met een eerste opzettje voor de podcast te maken, alleen ga ik liever werken met de film opdracht. Ik heb de captions toegevoegd aan de film en op de juiste tijd onder de film gezet. De film toegevoegd aan de website en begonnen aan de achtergrond geluiden en hoe deze weer te geven daar wil ik morgen mee verder.
+Ik had de opdracht verkeerd gelezen dus begon met een eerste opzetje voor de podcast te maken, alleen ga ik liever werken met de film opdracht. Ik heb de captions toegevoegd aan de film en op de juiste tijd onder de film gezet. De film toegevoegd aan de website en begonnen aan de achtergrond geluiden en hoe deze weer te geven daar wil ik morgen mee verder.
 
 ### Dag 2 (31 Maart)
 
-De dag begonnen met een bug te fixen waardoor de video niet wilde afspelen. Daarna de eerste test gedaan met Darice en vragen gesteld, zie het resultaat daarvan hier onder. 
+De dag begonnen met een bug te fixen waardoor de video niet wilde afspelen. Daarna de eerste test gedaan met Darice en vragen gesteld, zie het resultaat daarvan hier onder. Feedback ontvangen over fonts, kleuren, emoji gebruik en toegankelijkheid. Lato fonts gekozen en eerste achtergrondeffecten toegevoegd.
 
+### Dag 4 (2 April)
+Sound-effect styling uitgewerkt: heartbeat animatie, flitsende lichten (sound0), kiddie muziek kleuren (sound1). Begonnen met CSS transitions voor sfeer-overgangen.
+
+### Dag 5 (3 April)
+Captions voor spannende scènes gestyled (beast growls, crowd panic). Kleuren en tekstgrootte aangepast na Darice feedback. Test van alle timings.
+
+### Dag 6 (4 April)
+Flash-effect voor lichtflitsen (sound 9-11) toegevoegd. Afstelling van timing en overgangen. Debug van korte intervallen tussen sounds.
+
+### Dag 7 (7 April)
+Tweede test met Darice - Arduino idee werd goed ontvangen. Flash-effect bug gefixt (verkeerde CSS selector). 
+
+### Dag 8 (8 April)
+
+Ik dacht dat ik een arduino trilmotor had helaas was dat niet zo dus die heb ik besteld.
+Sound effects voor flashes beter uitgewerkt.
+
+### Dag 9 (9 April)
+Voorbereiding README en projectdocumentatie. Sound effects aangepast op de milliseconden zodat de effecten perfect gelijk zijn.
+
+### Dag 10 (10 April)
+README bijgewerkt met voortgang. Onderzoek gedaan naar arduino setup.
 ---
 
 ## 🔄 Iteraties & Tests
@@ -89,13 +111,13 @@ Nee kleuren contrast moet beter, tekst mag groter en duidelijker maken wanneer e
 - Heeft een EQ nog eventuele voordelen?
 Een duidelijke goed uitgewerkte EQ zou wel helpen maar het is erg lastig.
 
-### Test 3 (16 april)
+### Test 3 (14 april)
 
 Vragen?
 
 - Is het einde duidelijk? Er gebeurd veel maar alles is zichtbaar, is dit ook duidelijk voor Darice?
 
-### Test 4 (23 april)
+### Test 4 (21 april)
 
 ---
 
