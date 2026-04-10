@@ -89,11 +89,11 @@ Nee kleuren contrast moet beter, tekst mag groter en duidelijker maken wanneer e
 - Heeft een EQ nog eventuele voordelen?
 Een duidelijke goed uitgewerkte EQ zou wel helpen maar het is erg lastig.
 
-
-
-
-
 ### Test 3 (16 april)
+
+Vragen?
+
+- Is het einde duidelijk? Er gebeurd veel maar alles is zichtbaar, is dit ook duidelijk voor Darice?
 
 ### Test 4 (23 april)
 
