@@ -72,7 +72,7 @@ Sound effects voor flashes beter uitgewerkt.
 Voorbereiding README en projectdocumentatie. Sound effects aangepast op de milliseconden zodat de effecten perfect gelijk zijn.
 
 ### Dag 10 (10 April)
-README bijgewerkt met voortgang. Onderzoek gedaan naar arduino setup.
+README bijgewerkt met voortgang. Onderzoek gedaan naar arduino setup. Nieuw idee om een sound effect "volume" knop toe tevoegen zodat de effecten harder en zachter worden gezet.
 ---
 
 ## 🔄 Iteraties & Tests
@@ -117,6 +117,13 @@ Vragen?
 
 - Is het einde duidelijk? Er gebeurd veel maar alles is zichtbaar, is dit ook duidelijk voor Darice?
 
+- Slider toevoegen om effecten minder heftig te maken net zoals je geluid harder en zachter kan zetten.
+
+- EQ verder uitwerken.
+
+Resultaten:
+
+Text nog steeds te klein op een groot scherm. De mogelijkheid om de intensiteit van de effecten aanpassen is erg fijn. 
 ### Test 4 (21 april)
 
 ---
