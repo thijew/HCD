@@ -128,10 +128,32 @@ Text nog steeds te klein op een groot scherm. De mogelijkheid om de intensiteit 
 
 During test 4, I actually wanted to use the Arduino for testing, but unfortunately that did not work on the day of the test, so I was unable to test it. However, I did discuss the idea of how different sounds can be conveyed through vibration, and when the user would practice with the vibrations so that they know which vibration imitates which sound. 
 
+| Sound  | Meaning         | pattern            |
+| ------- | --------------------- | --------------------------------- |
+| sound0  | Heartbeat             | Pulse              |
+| sound1  | Kiddie music          | Light pulse              |
+| sound2  | Crowd cheering        | Panic burst              |
+| sound3  | Water                 | Soft rumble         |
+| sound4  | Water continues       | Soft rumble         |
+| sound5  | Tension building      | Long rumble         |
+| sound6  | Peak tension          | Strong rumble       |
+| sound7  | Beasts crawl in       | Long rumble         |
+| sound8  | Scream / threat spike | Panic burst        |
+| sound9  | Flash 1               | Double hit |
+| sound10 | Flash 2               | Double hit |
+| sound11 | Flash 3               | Double hit |
+| sound12 | Final cue             | Pulse       |
+
 ---
 
 ## 📝 Conclusie
 
+In this project, I explored how to design a website for 1 specific persona. In this case the persona (Darice) was deaf so the goal was to make sounds from a movie clip and give the user a better understanding of what the sounds are. I started the website with trying to visualize the sounds, I added subtitles, Added some sort of equalizer to display the loudness of the sounds. The test results showed that Darice would like to change how intens the visual effects of the sound should be. I came up with an idea to add a Arduino and a vibration motor so that sound could be displayed as vibration. The user can learn different vibration patterns to get a better understanding of what the vibrations mean and to later add even more vibrations for more specific sounds.
+
+The tests showed that the idea was well received and that the Arduino made the concept more understandable and interesting. Darice was especially interested in how the Arduino could be used to represent sound through vibration, and she thought this was a good and creative solution. She also liked the option to change the intensity, although she mentioned that the three levels could be made a bit more different from each other. Overall, the website worked well and the user experience was positive.
+
+
+From this project I learned that to design a website for one specific person it is incredibly important to test your project, listen to the persona specific needs, adjust your project to those needs and to think outside of the box. When you are designing something for only 1 person you can go a little crazier with your ideas and if the persona likes it then that's great, but that doesn't mean it's going to work for everyone.  
 ## 💾 Bestanden
 
 - [[Link naar GitHub repo](https://github.com/thijew/HCD)]
