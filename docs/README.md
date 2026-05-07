@@ -126,6 +126,8 @@ Resultaten:
 Text nog steeds te klein op een groot scherm. De mogelijkheid om de intensiteit van de effecten aanpassen is erg fijn. 
 ### Test 4 (21 april)
 
+During test 4, I actually wanted to use the Arduino for testing, but unfortunately that did not work on the day of the test, so I was unable to test it. However, I did discuss the idea of how different sounds can be conveyed through vibration, and when the user would practice with the vibrations so that they know which vibration imitates which sound. 
+
 ---
 
 ## 📝 Conclusie
